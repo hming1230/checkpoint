@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.toppic {
+  background-image: url("header.jpg");
+  height: 500px;
+  width: 100%;
+}
+.toppic .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+.toppic .header p {
+  padding-top: 250px;
+  max-width: 780px;
+  height: auto;
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+}
+.toppic .avatar {
+  position: relative;
+  margin-left: 50%;
+  margin-top: 104px;
+  border-radius: 100px;
+  background-image: url("vrk.png");
+  width: 100px;
+  height: 100px;
+}
+.toppic .avatar + .inf {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -380px;
+  width: 200px;
+  margin-left: 50px;
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  color: rgb(51, 51, 51);
+  border-bottom: 2px solid #e6e6e6;
+  padding-bottom: 10px;
+}
+.toppic .avatar + .inf .name {
+  font-weight: bold;
+}
+.toppic .avatar + .inf .updated {
+  font-weight: italic;
+}
+
+.mainnd {
+  padding-top: 170px;
+}
+.mainnd ul {
+  list-style-type: decimal;
+  color: rgba(0, 0, 0, 0.25);
+  margin-left: 100px;
+  list-style-type: font-size 18px;
+}
+.mainnd .box1 {
+  width: 66.67%;
+  margin-left: 16.665%;
+}
+.mainnd .box1 .subheader {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: rgb(51, 51, 51);
+  text-align: center;
+}
+.mainnd .box1 .a {
+  font-size: 20px;
+}
+.mainnd .box1 .para {
+  margin-top: 20px;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+}
+.mainnd .box1 .recommendation {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: black;
+}
+.mainnd .box1 .recommendation .bold-text {
+  font-weight: bold;
+}
+.mainnd .box1 img {
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+.box1 a {
+  display: block;
+  clear: both;
+}
+
+/*# sourceMappingURL=style.css.map */
